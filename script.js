@@ -9,9 +9,8 @@ window.addEventListener("load", ()=>{
     },300)
 
     setTimeout(()=>{
-        intro.style.top="-100%"
+        intro.style.top="-200%"
     },2000)
-    document.body.className.remove('no-scroll');
 })
 document.addEventListener('DOMContentLoaded', function() {
             const hamburger = document.querySelector('.hamburger');
